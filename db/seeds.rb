@@ -5,5 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Email.create! object: "Meet Mr. Miyagi", body: "hello mister miyagi", read: true
+Email.create! object: "Meet Mr. Miyagi", body: "hello mister miyagi", read: false
 Email.create! object: "Paint the fence", body: "fance and fancy guys", read: true
